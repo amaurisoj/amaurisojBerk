@@ -241,3 +241,90 @@ footer{
     position: relative;
     left: 8.75rem;
 }
+
+@media (max-width:40rem) {
+    header{
+        height: 110rem;
+    }
+    .header-imgs{
+        width: 50%;
+        height: 50%;
+    }
+    .header-nav-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-ul-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+    h1{
+        font-size: 3rem;
+
+    }      
+    h2,.header-p{
+        font-size: 1.7rem;
+    }
+    .header-p{
+        width: 90%;
+    }
+    .header-ul-2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 5%;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }   
+    .main-section,.main-img{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        position: relative;
+        left: 1.8rem;
+
+    }
+    .main-div-button{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    left: 15rem;
+    padding-top: 2%;
+    }
+
+    img{
+        width: 50%;
+        height: 50%;
+        padding-top: 2%;
+    }
+
+@media (max-width:20rem) {
+
+    .main-section,.main-img{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    left: 1.8rem;
+
+    }
+  .main-div-button{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    left:13%;
+    padding-top: 2%;
+    }
+
+  img{
+    width: 50%;
+    height: 50%;
+    padding-top: 2%;
+    }
+}
